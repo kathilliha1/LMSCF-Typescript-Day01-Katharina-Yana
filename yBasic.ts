@@ -19,12 +19,8 @@
 
 
 
-var greet = (name: string): string => {
-   if (name) {
-       return "Hi  " + name;
-   } else {
-       return "Hi dear User";
-   }
-};
-document.write(greet('John'));
+function f({ x = 0 }) {
+   console.log(x);
+}
+f({}); // 0
 

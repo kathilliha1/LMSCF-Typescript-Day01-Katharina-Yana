@@ -14,12 +14,8 @@
 // 	}
 // 	document.write("<br>");
 // }
-var greet = function (name) {
-    if (name) {
-        return "Hi  " + name;
-    }
-    else {
-        return "Hi dear User";
-    }
-};
-document.write(greet('John'));
+function f(_a) {
+    var _b = _a.x, x = _b === void 0 ? 0 : _b;
+    console.log(x);
+}
+f({}); // 0
